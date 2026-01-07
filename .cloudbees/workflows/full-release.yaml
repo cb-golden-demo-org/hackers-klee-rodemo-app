@@ -338,7 +338,7 @@ jobs:
           application-name: hackers-klee-rodemo-app
           environment-name: hackers-klee-rodemo-qa
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue: true
@@ -672,7 +672,7 @@ jobs:
           application-name: hackers-klee-rodemo-app
           environment-name: hackers-klee-rodemo-staging
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue: true
@@ -1217,7 +1217,7 @@ jobs:
           application-name: hackers-klee-rodemo-app
           environment-name: hackers-klee-rodemo-prod
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue:
